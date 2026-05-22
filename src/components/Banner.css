@@ -1,0 +1,105 @@
+.banner{
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        #4b0055,
+        #5e0166,
+        #240046
+    );
+
+    text-align:center;
+    padding:40px 20px;
+}
+
+
+.overlay{
+    max-width:800px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.banner-logo{
+    width:180px;
+    height:auto;
+
+    margin-bottom:25px;
+
+    filter:drop-shadow(0 0 25px cyan);
+
+    transition:0.4s;
+}
+
+.banner-logo:hover{
+    transform:scale(1.05);
+}
+
+
+
+.banner h1{
+    font-size:55px;
+    margin-bottom:15px;
+
+    line-height:1.2;
+
+    background:linear-gradient(
+        90deg,
+        #00c3ff,
+        #7b2ff7,
+        #ff00aa
+    );
+
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+
+.banner p{
+    font-size:22px;
+    color:white;
+
+    margin-bottom:30px;
+
+    max-width:600px;
+}
+
+
+.banner button{
+    padding:15px 30px;
+
+    border:none;
+    border-radius:30px;
+
+    font-size:18px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    background:linear-gradient(
+        90deg,
+        #00c3ff,
+        #ff00aa
+    );
+
+    color:white;
+
+    transition:all .3s ease;
+}
+
+.banner button:hover{
+    transform:scale(1.05);
+
+    box-shadow:
+        0 0 15px #00c3ff,
+        0 0 25px #ff00aa;
+}
