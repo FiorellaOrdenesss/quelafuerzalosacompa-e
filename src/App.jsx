@@ -1,18 +1,11 @@
-// Hola Gente!!
-// Hola Leo!!
-import { useState } from "react";
-import { Cards } from "./components/Cards";
-import { Footer } from "./components/Footer";
-import "./index.css";
-import "./App.css";
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
 
 function App() {
   return (
     <>
-      <div>
-        <Cards />
-      </div>
-      <Footer />
+      <Navbar />
+      <Banner />
     </>
   );
 }
