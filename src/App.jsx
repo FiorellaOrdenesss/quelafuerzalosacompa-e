@@ -1,16 +1,19 @@
 // Hola Gente!!
+// Hola Leo!!
 import { useState } from "react";
 import { Cards } from "./components/Cards";
+import { Footer } from "./components/Footer";
 import "./index.css";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
-      <Cards />
-    </div>
+    <>
+      <div>
+        <Cards />
+      </div>
+      <Footer />
+    </>
   );
 }
 
